@@ -1,0 +1,11 @@
+{
+  "ollama_url": "http://localhost:11434",
+  "model": "qwen3:4b-instruct",
+  "source_url": "https://www.duranno.com/qt/default.asp",
+  "request_timeout_seconds": 25,
+  "ollama_timeout_seconds": 180,
+  "browser_timeout_seconds": 30000,
+  "use_browser_fallback": true,
+  "headless_browser": true,
+  "max_source_chars": 30000
+}

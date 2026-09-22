@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="오늘의 QT - 로컬 AI가 생성한 묵상 페이지">
+  <title>오늘의 QT</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <div class="eyebrow">DAILY QUIET TIME <span id="date"></span></div>
+      <h1 id="title">오늘의 QT</h1>
+      <p id="reference" class="reference"></p>
+    </header>
+
+    <div id="loading" class="state-card">오늘의 QT를 불러오는 중입니다.</div>
+
+    <div id="unavailable" class="state-card hidden">
+      <h2>오늘의 QT 정보를 확인하지 못했습니다.</h2>
+      <p id="errorText"></p>
+      <a id="sourceLinkUnavailable" class="button" target="_blank" rel="noreferrer">생명의 삶 원문에서 확인하기</a>
+    </div>
+
+    <div id="content" class="hidden">
+      <section class="card">
+        <div class="section-label">오늘 말씀 한눈에 보기</div>
+        <p id="summary" class="body-text"></p>
+      </section>
+
+      <section class="card">
+        <div class="section-label">묵상하기</div>
+        <ol id="meditation" class="list"></ol>
+      </section>
+
+      <section class="card">
+        <div class="section-label">오늘 나에게 적용하기</div>
+        <ul id="application" class="list"></ul>
+      </section>
+
+      <section class="card prayer-card">
+        <div class="section-label">오늘의 기도</div>
+        <p id="prayer" class="body-text"></p>
+      </section>
+
+      <footer>
+        <p id="notice"></p>
+        <a id="sourceLink" target="_blank" rel="noreferrer">두란노 생명의 삶 원문 보기 →</a>
+        <div class="generated" id="generated"></div>
+      </footer>
+    </div>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
