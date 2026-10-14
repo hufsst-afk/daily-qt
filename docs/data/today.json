@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "status": "unavailable",
   "source": "두란노 생명의 삶",
   "source_url": "https://www.duranno.com/qt/default.asp",
@@ -11,5 +11,5 @@
   "prayer": "",
   "notice": "공식 정보를 자동 확인하지 못해 내용을 임의 생성하지 않았습니다.",
   "error": "실행 오류: RuntimeError: application은 정확히 2개여야 합니다.",
-  "generated_at": "2026-10-14T05:14:08+09:00"
+  "generated_at": "2026-10-15T05:16:59+09:00"
 }
