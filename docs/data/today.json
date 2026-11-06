@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "status": "unavailable",
   "source": "두란노 생명의 삶",
   "source_url": "https://www.duranno.com/qt/default.asp",
@@ -10,6 +10,6 @@
   "application": [],
   "prayer": "",
   "notice": "공식 정보를 자동 확인하지 못해 내용을 임의 생성하지 않았습니다.",
-  "error": "실행 오류: HTTPError: 400 Client Error: Bad Request for url: http://localhost:11434/api/chat",
-  "generated_at": "2026-11-06T05:10:34+09:00"
+  "error": "실행 오류: HTTPError: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/chat",
+  "generated_at": "2026-11-07T05:10:22+09:00"
 }
